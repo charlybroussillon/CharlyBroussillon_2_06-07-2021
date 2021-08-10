@@ -1,0 +1,75 @@
+header, main {
+    width: 93%;
+    margin: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: black;
+    margin: 0;
+}
+
+header {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.inscription_mobile {
+    display: none;
+}
+
+.nav_desktop {
+    display: flex;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #0065FC;
+    text-decoration: none;
+}
+
+.inscription a {
+    font-weight: bold;
+}
+
+.hebergements a {
+    border-top: 3px solid #0065FC;
+    padding-top: 38px;
+}
+
+.activites a {
+    color: black;
+}
+
+img {
+    max-width: 100%;
+}
+
+#content {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
